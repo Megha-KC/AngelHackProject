@@ -116,6 +116,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             // Show the Up button in the action bar.
+            actionBar.setIcon(R.drawable.ic_settings_black);
             actionBar.setTitle("Settings");
             actionBar.setDisplayUseLogoEnabled(true);
             actionBar.setDisplayShowHomeEnabled(true);
@@ -175,7 +176,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         public boolean onOptionsItemSelected(MenuItem item) {
             int id = item.getItemId();
             if (id == android.R.id.home) {
-                startActivity(new Intent(getActivity(), SettingsActivity.class));
+                startActivity(new Intent(getActivity(), NavigationActivity.class));
                 return true;
             }
             return super.onOptionsItemSelected(item);

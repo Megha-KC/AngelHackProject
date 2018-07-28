@@ -18,6 +18,7 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 
@@ -25,13 +26,11 @@ import com.google.android.gms.maps.model.LatLng;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class LocationFragment extends Fragment {
-
+public class LocationFragment extends Fragment implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, LocationListener {
 
     GoogleMap map;
     GoogleApiClient googleApiClient;//for current location
     Boolean firsttime = false;
-
     public LocationFragment() {
         // Required empty public constructor
     }
@@ -41,7 +40,10 @@ public class LocationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_location, container, false);
+        View v = inflater.inflate(R.layout.fragment_location, container, false);
+
+
+        return v;
     }
 
     @Override
@@ -95,7 +97,7 @@ public class LocationFragment extends Fragment {
 
             return;
         }
-        LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, (LocationListener) this);
+        LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, this);
     }
 
     @Override
@@ -115,3 +117,6 @@ public class LocationFragment extends Fragment {
 
     }
 }
+
+
+
