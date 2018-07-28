@@ -17,15 +17,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".EditProfileActivity" />
+
         <activity android:name=".AlertActivity" />
+
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" />
+
+            android:label="@string/title_activity_settings"/>
+
+        <activity android:name=".AboutActivity" />
+
+
+
 
 
 
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".AboutActivity"></activity>
 
     </application>
 
