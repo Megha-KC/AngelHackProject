@@ -1,7 +1,13 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">SyndriveApp</string>
     <string name="title_activity_login">Sign in</string>
 
+=======
+    <string name="app_name">Syndrive-Hackathon</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_settings">Settings</string>
+>>>>>>> e0f6e9c0db8cf6ab6dda9b0ea613df85cbd8eb59
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
@@ -15,12 +21,19 @@
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+<<<<<<< HEAD
+=======
+
+>>>>>>> e0f6e9c0db8cf6ab6dda9b0ea613df85cbd8eb59
     <string name="nav_header_title">Syndrive</string>
     <string name="nav_header_subtitle">syndriveteam@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="reset_password">Reset Password</string>
+<<<<<<< HEAD
 
+=======
+>>>>>>> e0f6e9c0db8cf6ab6dda9b0ea613df85cbd8eb59
     <string name="btn_send">Send SOS</string>
     <string name="btn_dismiss">Dismiss</string>
     <string name="tv_sent">SOS Sent</string>
@@ -43,7 +56,10 @@
 
     <string name="action_save">Save</string>
     <string name="action_edit">Edit</string>
+<<<<<<< HEAD
 
+=======
+>>>>>>> e0f6e9c0db8cf6ab6dda9b0ea613df85cbd8eb59
     <string name="tv_add_emergency_contacts">Add Emergency Contacts</string>
     <string name="tv_emergency_contacts">Emergency Contacts</string>
     <string name="hint_emname1">1. Name</string>
@@ -74,15 +90,20 @@
         <item>20 seconds</item>
         <item>25 seconds</item>
         <item>30 seconds</item>
-
     </string-array>
+
     <string-array name="settings_list_preference_values">
         <item>10</item>
         <item>15</item>
         <item>20</item>
         <item>25</item>
         <item>30</item>
+<<<<<<< HEAD
 
     </string-array>
 
 </resources>
+=======
+    </string-array>
+</resources>
+>>>>>>> e0f6e9c0db8cf6ab6dda9b0ea613df85cbd8eb59
