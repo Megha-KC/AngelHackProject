@@ -66,6 +66,11 @@
 
     <string name="tv_profile_details">Profile Details</string>
     <string name="tv_emergency_contacts">Emergency Contacts</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="btn_login">login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="new_user_sign_in">New user? Sign in</string>
 
 </resources>
 
