@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etEmail,etPassword;
     private Button btnLogin;
-    private TextView tvRegister,tvForgotPassword;
+    private TextView tvRegister, tvForgotPassword;
     private FirebaseAuth firebaseAuth;
 
     private static final int REQUEST_PERMISSIONS = 1500;
@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setTitle("LOGIN");
 
         etEmail = findViewById(R.id.etEmail);
-        etPassword = findViewById(R.id.etPassword);
-        btnLogin = findViewById(R.id.btnLogin);
+        etPassword = findViewById(R.id.etpassword);
+        btnLogin = findViewById(R.id.btn);
         tvRegister =findViewById(R.id.tvRegister);
         tvForgotPassword = findViewById(R.id.tvForgotPassword);
 
