@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Syndrive-Hackathon</string>
+
+    <string name="hint_emname1">1. Name</string>
+    <string name="hint_emname2">2. Name</string>
+    <string name="hint_emname3">3. Name</string>
+    <string name="hint_num1">Number</string>
+    <string name="hint_num2">Number</string>
+    <string name="hint_num3">Number</string>
+
+    <string name="tv_profile_details">Profile Details</string>
+    <string name="tv_emergency_contacts">Emergency Contacts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_dob">DOB</string>
+    <string name="hint_blood_group">Blood Group</string>
 </resources>
