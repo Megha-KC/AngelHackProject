@@ -17,12 +17,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".EditProfileActivity" />
+        <activity android:name=".AlertActivity" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity android:name=".EditProfileActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
