@@ -86,5 +86,80 @@
 
     </resources>
 
+<<<<<<< HEAD
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="tv_ForgotPassword">Forgot Password?</string>
+    <string name="btn_Login">LOGIN</string>
 
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_alert_timer">Alert Timer</string>
+
+    <string name="title_dialog_duration">Set Duration</string>
+    <string-array name="settings_list_preference_titles">
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>20 seconds</item>
+        <item>25 seconds</item>
+        <item>30 seconds</item>
+
+    </string-array>
+    <string-array name="settings_list_preference_values">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_dob">Date Of Birth (dd/mm/yyyy)</string>
+    <string name="hint_blood_group">Blood Group</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_new_pwd">Enter New Password</string>
+    <string name="hint_confirm_new_pwd">Confirm New Password</string>
+    <string name="tv_add_emergency_contacts">Add Emergency Contacts</string>
+
+<string name="hint_emname1">1. Name</string>
+<string name="hint_num1">Number</string>
+<string name="hint_emname2">2. Name</string>
+<string name="hint_num2">Number</string>
+<string name="hint_emname3">3. Name</string>
+<string name="hint_num3">Number</string>
+<string name="hint_registerbtn">Register</string>
+
+
+
+
+    <string name="tv_profile_details">Profile Details</string>
+    <string name="tv_emergency_contacts">Emergency Contacts</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="btn_login">login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="new_user_sign_in">New user? Sign in</string>
+
+</resources>
+=======
+
+>>>>>>> 14f1f71e4a70ab2aae6d6435590f9f797ac9cadf
 
