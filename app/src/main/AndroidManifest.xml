@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".EditProfileActivity" />
 
+        <activity android:name=".AlertActivity" />
 
         <activity
             android:name=".SettingsActivity"
@@ -25,6 +26,7 @@
             android:label="@string/title_activity_settings"/>
 
         <activity android:name=".AboutActivity" />
+
 
 
 
