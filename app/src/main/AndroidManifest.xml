@@ -26,13 +26,6 @@
         <activity android:name=".AboutActivity" />
 
 
-
-
-
-
-        <activity android:name=".SignUpActivity" />
-
-
     </application>
 
 </manifest>
