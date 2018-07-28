@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "137114112484",
+    "firebase_url": "https://angelhackproject-7d01c.firebaseio.com",
+    "project_id": "angelhackproject-7d01c",
+    "storage_bucket": "angelhackproject-7d01c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137114112484:android:e98faccfa643f9c8",
+        "android_client_info": {
+          "package_name": "universe.sk.syndrive_hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137114112484-17f38akni5ltejhluoejbm00n555nkvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "universe.sk.syndrive_hackathon",
+            "certificate_hash": "db2cb3b4c0c5fa289ebe7c2583a7b9d4296b7b23"
+          }
+        },
+        {
+          "client_id": "137114112484-rabbcf7obgprd5m05g0gvn2r23mouv93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArARoUD57-CvTaA4lBZBTXQiWSAP56OVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137114112484-rabbcf7obgprd5m05g0gvn2r23mouv93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
