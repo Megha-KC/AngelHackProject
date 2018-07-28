@@ -26,7 +26,7 @@
     <ListPreference
         android:defaultValue="15"
         android:key="alert_timer"
-        android:title="@string/title_alert_timer"
+        android:title="@string/title_alert"
         android:entryValues="@array/settings_list_preference_values"
         android:entries="@array/settings_list_preference_titles"
         android:dialogTitle="@string/title_dialog_duration"/>
