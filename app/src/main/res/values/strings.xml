@@ -8,7 +8,7 @@
     <string name="hint_new_pwd">Enter New Password</string>
     <string name="hint_confirm_new_pwd">Confirm New Password</string>
     <string name="tv_add_emergency_contacts">Add Emergency Contacts</string>
-<string name="tv_emergency_contacts">Emergency Contacts</string>
+
 <string name="hint_emname1">1. Name</string>
 <string name="hint_num1">Number</string>
 <string name="hint_emname2">2. Name</string>
@@ -17,4 +17,10 @@
 <string name="hint_num3">Number</string>
 <string name="hint_registerbtn">Register</string>
 
-    </resources>
+
+
+    <string name="tv_profile_details">Profile Details</string>
+    <string name="tv_emergency_contacts">Emergency Contacts</string>
+
+</resources>
+
