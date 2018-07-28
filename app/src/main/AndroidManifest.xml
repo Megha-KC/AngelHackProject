@@ -16,12 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".EditProfileActivity" />
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
-        <activity android:name=".EditProfileActivity"></activity>
-
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>
